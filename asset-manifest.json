@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/rajat-weather-app/static/css/main.a0a6d792.css",
+    "main.css": "/rajat-weather-app/static/css/main.26c23ff4.css",
     "main.js": "/rajat-weather-app/static/js/main.999d94ca.js",
     "static/media/milkyway.png": "/rajat-weather-app/static/media/milkyway.6ca11565c7f018646628.png",
     "static/media/galaxy-bg.png": "/rajat-weather-app/static/media/galaxy-bg.0a77221b3436bf75f98f.png",
@@ -24,11 +24,11 @@
     "static/media/weatherlogo.png": "/rajat-weather-app/static/media/weatherlogo.22bcc7239e1a859725cf.png",
     "static/media/mistHazeFogNight.png": "/rajat-weather-app/static/media/mistHazeFogNight.063ef89b78c00efff295.png",
     "index.html": "/rajat-weather-app/index.html",
-    "main.a0a6d792.css.map": "/rajat-weather-app/static/css/main.a0a6d792.css.map",
+    "main.26c23ff4.css.map": "/rajat-weather-app/static/css/main.26c23ff4.css.map",
     "main.999d94ca.js.map": "/rajat-weather-app/static/js/main.999d94ca.js.map"
   },
   "entrypoints": [
-    "static/css/main.a0a6d792.css",
+    "static/css/main.26c23ff4.css",
     "static/js/main.999d94ca.js"
   ]
 }
