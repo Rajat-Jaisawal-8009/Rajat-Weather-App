@@ -9,7 +9,7 @@ import Main from './Main';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path='/' element={<Main />}>
+    <Route basename='/rajat-weather-app' path='/' element={<Main />}>
 
     <Route path='/' element={<WeatherApp />}/>
 
