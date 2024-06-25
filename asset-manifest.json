@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/Rajat-Weather-App/static/css/main.9cf8c5dd.css",
+    "main.js": "/Rajat-Weather-App/static/js/main.036adf87.js",
+    "static/media/milkyway.png": "/Rajat-Weather-App/static/media/milkyway.6ca11565c7f018646628.png",
+    "static/media/galaxy-bg.png": "/Rajat-Weather-App/static/media/galaxy-bg.0a77221b3436bf75f98f.png",
+    "static/media/lovnebula.png": "/Rajat-Weather-App/static/media/lovnebula.382ec3941b9b6dd5202f.png",
+    "static/media/bluestar.png": "/Rajat-Weather-App/static/media/bluestar.8b8f0fdd27888e35fbb2.png",
+    "static/media/clearNight.png": "/Rajat-Weather-App/static/media/clearNight.eeac95acc8eb9ad40401.png",
+    "static/media/cloudsDay.png": "/Rajat-Weather-App/static/media/cloudsDay.8793e2e1adacb4842f97.png",
+    "static/media/nebula.png": "/Rajat-Weather-App/static/media/nebula.c7169674fd492d3cae16.png",
+    "static/media/cloudsNight.png": "/Rajat-Weather-App/static/media/cloudsNight.f1f835d8c19dda1728d9.png",
+    "static/media/thunderstorm.png": "/Rajat-Weather-App/static/media/thunderstorm.79fdb4a3438a8725de41.png",
+    "static/media/ThunderstormWithRain.png": "/Rajat-Weather-App/static/media/ThunderstormWithRain.9b4ee8bb0184e94c3037.png",
+    "static/media/Rain.png": "/Rajat-Weather-App/static/media/Rain.a68b64bb7b3ff370fd2f.png",
+    "static/media/sunset.png": "/Rajat-Weather-App/static/media/sunset.091bfd33587fb55eb7f4.png",
+    "static/media/lightRainDay.png": "/Rajat-Weather-App/static/media/lightRainDay.42ff9c56e941b2806a65.png",
+    "static/media/sunrise.png": "/Rajat-Weather-App/static/media/sunrise.13688b514bb2da0678ee.png",
+    "static/media/drizzel.png": "/Rajat-Weather-App/static/media/drizzel.5df561da07bcab28fd7a.png",
+    "static/media/lightRainNight.png": "/Rajat-Weather-App/static/media/lightRainNight.4499a3e40724df95af41.png",
+    "static/media/blackimg.jpg": "/Rajat-Weather-App/static/media/blackimg.a8c51ba400ca069b2456.jpg",
+    "static/media/snow.png": "/Rajat-Weather-App/static/media/snow.5bd599959ffd48171df8.png",
+    "static/media/mistHazeFogDay.png": "/Rajat-Weather-App/static/media/mistHazeFogDay.db4519c83bf25516fa15.png",
+    "static/media/weatherlogo.png": "/Rajat-Weather-App/static/media/weatherlogo.22bcc7239e1a859725cf.png",
+    "static/media/mistHazeFogNight.png": "/Rajat-Weather-App/static/media/mistHazeFogNight.063ef89b78c00efff295.png",
+    "index.html": "/Rajat-Weather-App/index.html",
+    "main.9cf8c5dd.css.map": "/Rajat-Weather-App/static/css/main.9cf8c5dd.css.map",
+    "main.036adf87.js.map": "/Rajat-Weather-App/static/js/main.036adf87.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9cf8c5dd.css",
+    "static/js/main.036adf87.js"
+  ]
+}
