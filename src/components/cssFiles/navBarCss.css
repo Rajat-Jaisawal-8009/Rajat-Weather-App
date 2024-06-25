@@ -1,0 +1,279 @@
+.nav-header {
+  width: 100%;
+  display: flex;
+  background-color: #0000004a;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+  height: 60px;
+}
+
+.menu-weather {
+  width: 100%;
+  max-width: 50%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.search-weather {
+  width: 100%;
+  max-width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+align-items: center;
+}
+
+
+
+.weatherLogo {
+  width: 110px;
+  position: absolute;
+  top: -9px;
+  left: 23px;
+}
+
+.weatherLogo img{
+  width: 100%;
+  object-fit: contain;
+}
+
+.weather-app-name {
+  color: #ffffff9c;
+  text-shadow: #2c2c2c 2px 3px 2px;
+  font-family: cursive;
+  font-size: 12px;
+  padding-right: 80px;
+}
+
+.inputSearchBar::placeholder {
+  color: rgb(104, 103, 103);
+  opacity: 1; 
+  font-weight: 600;
+}
+
+
+.inputSearchBar {
+  width: 100%;
+  max-width: 200px;
+  border: none;
+  outline: none;
+  border-radius: 7px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 5px;
+  background-color: #ffffff70;
+  box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.3);
+  transition: 300ms ease-in-out;
+  color: #000000a8;
+  font-weight: 600;
+}
+.inputSearchBar:focus{
+  background-color: white;
+  transform: scale(1.05);
+  
+}
+
+.form-search {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+
+
+/* //=-------------button search */
+
+
+.search-btn {
+
+  border-radius: 7px;
+  border: none;
+  text-shadow: 1px 1px 1px #00000040;
+  padding: 6px 18px;
+  line-height: 22px;
+  cursor: pointer;
+  line-height: 19px;
+  color: white;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  background-color: #ffffff0f;
+  box-shadow: rgb(0 0 0 / 41%) 0px 3px 8px;
+}
+
+.search-btn:hover {
+
+  background-color: #3a88f7e0;
+}
+
+.search-btn:active {
+  
+  background-color: #ffffff0f;
+  box-shadow: rgb(0 0 0 / 41%) 0px 3px 8px;
+}
+
+.refresh-btn{
+  border-radius: 7px;
+  border: none;
+  text-shadow: 1px 1px 1px #00000040;
+  padding: 6px 11px;
+  line-height: 22px;
+  cursor: pointer;
+  line-height: 19px;
+  color: white;
+  font-size: 22px;
+  letter-spacing: .7px;
+  font-weight: 600;
+  background-color: #ffffff0f;
+  box-shadow: rgb(0 0 0 / 41%) 0px 3px 8px;
+}
+
+.refresh-btn:hover {
+ 
+  background-color: #3a88f7e0;
+}
+
+.refresh-btn:active {
+ 
+  background-color: #ffffff0f;
+  box-shadow: rgb(0 0 0 / 41%) 0px 3px 8px;
+}
+
+
+.location-btn-theme-wrap {
+  display: flex;
+  gap: 5px;
+}
+
+
+.location-btn {
+  border-radius: 7px;
+  border: none;
+  text-shadow: 1px 1px 1px #00000040;
+  padding: 8px 10px;
+  line-height: 22px;
+  cursor: pointer;
+  line-height: 19px;
+  color: white;
+  font-size: 14px;
+  letter-spacing: .7px;
+  font-weight: 600;
+  background-color:  #3a88f7e0;
+  box-shadow: rgb(0 0 0 / 41%) 0px 3px 8px;
+}
+
+.location-btn:hover{
+  background-color:  #ff0000a8;
+}
+
+.location-btn:active{
+  background-color: #ffffff0f;
+  box-shadow: rgb(0 0 0 / 41%) 0px 3px 8px;
+}
+
+
+.select-theme {
+  border-radius: 7px;
+  border: none;
+  text-shadow: 1px 1px 1px #00000040;
+  padding: 8px 0px;
+  padding-left: 4px;
+  outline: none;
+  text-align: center;
+  line-height: 22px;
+  cursor: pointer;
+  line-height: 19px;
+  color: white;
+  font-size: 14px;
+  letter-spacing: .7px;
+  font-weight: 600;
+  background-color: #ffffff0f;
+  box-shadow: rgb(0 0 0 / 41%) 0px 3px 8px;
+}
+
+
+@media screen and (max-width: 786px){
+.nav-header{
+  flex-direction: column;
+  height: auto;
+}
+
+
+
+.menu-weather {
+  max-width: 100%;
+  padding-bottom: 3px;
+  padding-top:3px;
+  gap: 3px;
+}
+
+.weatherLogo {
+  display: flex;
+  width: 51px;
+  position: initial;
+  align-items: center;
+}
+
+.weather-app-name{
+  padding-right: 0px;
+  font-size: 9px;
+}
+
+.search-weather {
+  max-width: 100%;
+  flex-direction: column-reverse;
+  padding-bottom: 8px;
+  gap: 10px;
+  align-items: normal;
+}
+
+.location-btn-theme-wrap{
+  width: 100%;
+  justify-content: space-evenly;
+  flex-direction: row-reverse;
+}
+
+.form-search {
+  width: 100%;
+  justify-content: center;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.location-btn{
+  font-size: 12px;
+  padding: 4px 71px;
+ background-color: #ffffff1c;
+}
+
+.select-theme {
+  padding: 5px 5px;
+  font-size: 13px;
+}
+
+.inputSearchBar {
+  padding-top: 0;
+  padding-bottom: 0;
+  max-width: 59%;
+}
+.search-btn{
+  padding: 4px 18px;
+}
+
+.refresh-btn{
+  padding: 4px 11px;
+}
+
+
+
+
+
+}
+
+
+
+
+  
