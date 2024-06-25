@@ -847,6 +847,10 @@ img.day5_weather_img_tag {
   font-size: 16px;
 }
 
+.temp_infor_day_box{
+  font-size: 14px;
+}
+
 .current_weather_all_infor_wrap{
   padding-left: 3px;
   padding-right: 3px;
@@ -891,7 +895,7 @@ img.day5_weather_img_tag {
 
 .air_quality_all_value {
 
-  font-size: 11px;
+  font-size: 12px;
 }
 
 .air_quality_all_text {

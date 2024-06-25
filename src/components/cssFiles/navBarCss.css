@@ -212,14 +212,14 @@ align-items: center;
 
 .weatherLogo {
   display: flex;
-  width: 51px;
+  width: 60px;
   position: initial;
   align-items: center;
 }
 
 .weather-app-name{
   padding-right: 0px;
-  font-size: 9px;
+  font-size: 11px;
 }
 
 .search-weather {
@@ -245,12 +245,16 @@ align-items: center;
 
 .location-btn{
   font-size: 12px;
-  padding: 4px 71px;
+  padding: 6px 71px;
  background-color: #ffffff1c;
 }
 
+.location-btn:hover{
+  background-color:  none;
+}
+
 .select-theme {
-  padding: 5px 5px;
+  padding: 7px 5px;
   font-size: 13px;
 }
 
@@ -262,9 +266,18 @@ align-items: center;
 .search-btn{
   padding: 4px 18px;
 }
+.search-btn:hover {
+
+  background-color: none;
+}
 
 .refresh-btn{
   padding: 4px 11px;
+}
+
+.refresh-btn:hover {
+ 
+  background-color:none;
 }
 
 
